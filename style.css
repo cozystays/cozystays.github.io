@@ -52,3 +52,18 @@ h3{font-size:21px;margin-top:28px}
 footer.site{background:var(--dark);color:#cbbfb4;margin-top:50px;padding:34px 0 40px;font-size:14px}
 footer.site a{color:var(--gold)}
 footer.site p{margin:0 0 10px}
+
+/* --- Fotos --- */
+.hero.photo{background-size:cover;background-position:center;position:relative}
+.hero.photo::before{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(26,20,16,.30) 0%,rgba(26,20,16,.62) 60%,rgba(26,20,16,.78) 100%)}
+.hero.photo .wrap{position:relative;z-index:1}
+.hero.photo h1,.hero.photo p,.hero.photo .kicker{text-shadow:0 1px 14px rgba(0,0,0,.45)}
+
+.cards .card{padding:0;overflow:hidden}
+.card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}
+.card .body{padding:18px 20px}
+
+.figure{margin:26px 0;border-radius:12px;overflow:hidden}
+.figure img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.figure figcaption{font-size:14px;color:var(--muted);padding:10px 2px 0;font-style:italic}
