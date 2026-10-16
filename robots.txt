@@ -3,4 +3,4 @@ Allow: /
 Disallow: /imprint.html
 Disallow: /privacy.html
 
-Sitemap: https://cozystays.github.io/sitemap.xml
+Sitemap: https://cozystays.github.io/sitemap-index.xml
